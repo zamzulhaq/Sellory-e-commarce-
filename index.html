@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sellory — Platform Toko Online Modern untuk UMKM Indonesia</title>
+  <meta name="description" content="Sellory adalah platform ecommerce modern yang dirancang khusus untuk UMKM Indonesia. Kelola toko online, pembayaran otomatis, ongkir instan, dan lebih banyak lagi." />
+  <meta name="keywords" content="toko online, UMKM Indonesia, ecommerce, jualan online, platform penjualan" />
+  <meta property="og:title" content="Sellory — Platform Toko Online Modern untuk UMKM Indonesia" />
+  <meta property="og:description" content="Platform ecommerce modern dengan identitas Indonesia yang kuat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <span class="logo-mark">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M16 2L28 8V24L16 30L4 24V8L16 2Z" stroke="#C9A96E" stroke-width="1.5" fill="none"/>
+            <path d="M16 8L22 11.5V18.5L16 22L10 18.5V11.5L16 8Z" fill="#C9A96E" opacity="0.3"/>
+            <circle cx="16" cy="16" r="2.5" fill="#C9A96E"/>
+          </svg>
+        </span>
+        <span class="logo-text">Sellory</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Fitur</a></li>
+        <li><a href="#themes">Tema</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#pricing">Harga</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/pages/login/" class="btn-ghost" id="nav-login">Masuk</a>
+        <a href="/pages/register/" class="btn-primary" id="nav-signup">Mulai Gratis</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <!-- Batik SVG Background -->
+    <div class="hero-batik-bg" aria-hidden="true">
+      <svg class="batik-kawung" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Kawung pattern -->
+        <g opacity="0.06">
+          <ellipse cx="50" cy="50" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="50" cy="50" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="50" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="50" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="50" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="50" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="50" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="50" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="100" cy="130" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="100" cy="130" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="200" cy="130" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="200" cy="130" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="300" cy="130" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="300" cy="130" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="50" cy="210" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="50" cy="210" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="210" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="210" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="210" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="210" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="210" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="210" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="100" cy="290" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="100" cy="290" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="200" cy="290" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="200" cy="290" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="300" cy="290" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="300" cy="290" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="50" cy="370" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="50" cy="370" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="370" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="150" cy="370" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="370" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="250" cy="370" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="370" rx="28" ry="18" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="350" cy="370" rx="18" ry="28" stroke="#C9A96E" stroke-width="1"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Glow orbs -->
+    <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-up">
+          <span class="badge-dot"></span>
+          Platform terpercaya untuk 10.000+ UMKM Indonesia
+        </div>
+        <h1 class="hero-headline animate-fade-up delay-1">
+          Platform toko online<br />
+          <em class="headline-italic">modern</em> untuk<br />
+          UMKM Indonesia.
+        </h1>
+        <p class="hero-sub animate-fade-up delay-2">
+          Kelola toko online Anda dengan mudah — dari pembayaran otomatis, 
+          ongkir instan, hingga tema premium beridentitas Indonesia.
+        </p>
+        <div class="hero-actions animate-fade-up delay-3">
+          <a href="#" class="btn-primary btn-large" id="hero-cta-primary">
+            <span>Mulai Gratis</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#dashboard" class="btn-outline btn-large" id="hero-cta-demo">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="M6.5 5.5L10.5 8L6.5 10.5V5.5Z" fill="currentColor"/></svg>
+            <span>Lihat Demo</span>
+          </a>
+        </div>
+        <div class="hero-stats animate-fade-up delay-4">
+          <div class="stat-item">
+            <span class="stat-num">10K+</span>
+            <span class="stat-label">Penjual Aktif</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">Rp 2T+</span>
+            <span class="stat-label">GMV Bulanan</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">98%</span>
+            <span class="stat-label">Uptime SLA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard Mockup -->
+      <div class="hero-mockup animate-fade-up delay-2">
+        <div class="mockup-browser">
+          <div class="mockup-bar">
+            <div class="mockup-dots">
+              <span class="dot dot-r"></span>
+              <span class="dot dot-y"></span>
+              <span class="dot dot-g"></span>
+            </div>
+            <div class="mockup-url">sellory.id/dashboard</div>
+          </div>
+          <div class="mockup-screen">
+            <!-- Inline Dashboard UI -->
+            <div class="dash-layout">
+              <div class="dash-sidebar">
+                <div class="dash-logo-sm">
+                  <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><path d="M16 2L28 8V24L16 30L4 24V8L16 2Z" stroke="#C9A96E" stroke-width="2" fill="none"/><circle cx="16" cy="16" r="3" fill="#C9A96E"/></svg>
+                </div>
+                <div class="dash-nav-items">
+                  <div class="dash-nav-item active"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="6" height="6" rx="1" fill="currentColor"/><rect x="9" y="1" width="6" height="6" rx="1" fill="currentColor" opacity="0.4"/><rect x="1" y="9" width="6" height="6" rx="1" fill="currentColor" opacity="0.4"/><rect x="9" y="9" width="6" height="6" rx="1" fill="currentColor" opacity="0.4"/></svg></div>
+                  <div class="dash-nav-item"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+                  <div class="dash-nav-item"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M1 13L5 6L8 10L11 7L15 13H1Z" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/></svg></div>
+                  <div class="dash-nav-item"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="1.5" stroke="currentColor" stroke-width="1.2"/><path d="M5 3V2M11 3V2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
+                  <div class="dash-nav-item"><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="6" r="3" stroke="currentColor" stroke-width="1.2"/><path d="M2 14c0-3.314 2.686-5 6-5s6 1.686 6 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
+                </div>
+              </div>
+              <div class="dash-main">
+                <div class="dash-header-row">
+                  <div class="dash-greeting">Dashboard</div>
+                  <div class="dash-period">Mei 2026</div>
+                </div>
+                <div class="dash-metrics">
+                  <div class="metric-card">
+                    <div class="metric-label">Pendapatan</div>
+                    <div class="metric-value gold">Rp 48,2Jt</div>
+                    <div class="metric-delta up">↑ 12%</div>
+                  </div>
+                  <div class="metric-card">
+                    <div class="metric-label">Pesanan</div>
+                    <div class="metric-value">1.284</div>
+                    <div class="metric-delta up">↑ 8%</div>
+                  </div>
+                  <div class="metric-card">
+                    <div class="metric-label">Produk</div>
+                    <div class="metric-value">342</div>
+                    <div class="metric-delta">aktif</div>
+                  </div>
+                </div>
+                <!-- Chart -->
+                <div class="dash-chart">
+                  <div class="chart-label">Penjualan 7 Hari</div>
+                  <div class="chart-bars">
+                    <div class="chart-bar" style="height:40%"><span></span></div>
+                    <div class="chart-bar" style="height:60%"><span></span></div>
+                    <div class="chart-bar" style="height:45%"><span></span></div>
+                    <div class="chart-bar" style="height:80%"><span></span></div>
+                    <div class="chart-bar" style="height:65%"><span></span></div>
+                    <div class="chart-bar active" style="height:95%"><span></span></div>
+                    <div class="chart-bar" style="height:70%"><span></span></div>
+                  </div>
+                </div>
+                <!-- Recent orders -->
+                <div class="dash-orders">
+                  <div class="order-row"><div class="order-dot"></div><div class="order-name">Batik Kawung Set</div><div class="order-val">Rp 285.000</div></div>
+                  <div class="order-row"><div class="order-dot"></div><div class="order-name">Kebaya Modern</div><div class="order-val">Rp 540.000</div></div>
+                  <div class="order-row"><div class="order-dot done"></div><div class="order-name">Tas Anyaman Rattan</div><div class="order-val">Rp 195.000</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Floating cards -->
+        <div class="float-card float-card-1 animate-float">
+          <div class="float-icon">💳</div>
+          <div class="float-text">
+            <div class="float-title">Pembayaran Masuk</div>
+            <div class="float-val">+Rp 1.250.000</div>
+          </div>
+        </div>
+        <div class="float-card float-card-2 animate-float-slow">
+          <div class="float-icon">🚀</div>
+          <div class="float-text">
+            <div class="float-title">Toko Live</div>
+            <div class="float-val">sellory.id/tokoku</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Batik divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 30" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0 15 Q60 0 120 15 Q180 30 240 15 Q300 0 360 15 Q420 30 480 15 Q540 0 600 15 Q660 30 720 15 Q780 0 840 15 Q900 30 960 15 Q1020 0 1080 15 Q1140 30 1200 15 Q1260 0 1320 15 Q1380 30 1440 15" stroke="#C9A96E" stroke-width="0.8" opacity="0.35"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- TRUST LOGOS -->
+  <section class="trust-section" id="trust">
+    <div class="container">
+      <p class="trust-label animate-on-scroll">Dipercaya oleh penjual dari berbagai platform</p>
+      <div class="trust-logos animate-on-scroll">
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <rect x="0" y="8" width="12" height="12" rx="2" fill="#C9A96E" opacity="0.5"/>
+            <rect x="16" y="4" width="64" height="8" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="16" y="16" width="40" height="6" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>Azrahstore</span>
+        </div>
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <circle cx="14" cy="14" r="10" stroke="#C9A96E" stroke-width="1.5" opacity="0.5"/>
+            <rect x="28" y="6" width="52" height="7" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="28" y="17" width="36" height="5" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>TrustMe</span>
+        </div>
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <polygon points="14,3 25,11 21,24 7,24 3,11" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <rect x="30" y="6" width="50" height="7" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="30" y="17" width="32" height="5" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>ModeHijab</span>
+        </div>
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <path d="M14 4L24 10V22L14 28L4 22V10L14 4Z" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <rect x="28" y="6" width="52" height="7" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="28" y="17" width="44" height="5" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>KulinerJakarta</span>
+        </div>
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <rect x="2" y="2" width="22" height="24" rx="4" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <rect x="28" y="6" width="52" height="7" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="28" y="17" width="28" height="5" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>TenunSumba</span>
+        </div>
+        <div class="trust-logo">
+          <svg width="80" height="28" viewBox="0 0 80 28" fill="none">
+            <path d="M4 14 Q14 2 24 14 Q14 26 4 14Z" stroke="#C9A96E" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <rect x="28" y="6" width="52" height="7" rx="2" fill="#2D2D2D" opacity="0.2"/>
+            <rect x="28" y="17" width="40" height="5" rx="2" fill="#2D2D2D" opacity="0.12"/>
+          </svg>
+          <span>KopiBanda</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section" id="features">
+    <!-- Parang pattern accent -->
+    <div class="parang-accent" aria-hidden="true">
+      <svg viewBox="0 0 200 400" fill="none">
+        <g opacity="0.05">
+          <path d="M0 0 Q50 100 0 200 Q50 300 0 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M30 0 Q80 100 30 200 Q80 300 30 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M60 0 Q110 100 60 200 Q110 300 60 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M90 0 Q140 100 90 200 Q140 300 90 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M120 0 Q170 100 120 200 Q170 300 120 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M150 0 Q200 100 150 200 Q200 300 150 400" stroke="#C9A96E" stroke-width="2"/>
+          <path d="M180 0 Q230 100 180 200 Q230 300 180 400" stroke="#C9A96E" stroke-width="2"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <div class="section-eyebrow">Fitur Unggulan</div>
+        <h2 class="section-title">Semua yang Anda butuhkan<br />untuk berjualan online</h2>
+        <p class="section-sub">Dari pembayaran hingga pengiriman, semua terintegrasi dalam satu platform yang elegan dan mudah digunakan.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll" id="feature-payment">
+          <div class="feature-icon-wrap gold">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="13" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 10h20" stroke="currentColor" stroke-width="1.5"/><rect x="6" y="14" width="4" height="2" rx="0.5" fill="currentColor"/></svg>
+          </div>
+          <h3 class="feature-title">Pembayaran Otomatis</h3>
+          <p class="feature-desc">Terima semua metode pembayaran — QRIS, transfer bank, e-wallet, dan kartu kredit tanpa konfigurasi tambahan.</p>
+          <div class="feature-tags">
+            <span class="tag">QRIS</span>
+            <span class="tag">OVO</span>
+            <span class="tag">GoPay</span>
+          </div>
+        </div>
+
+        <div class="feature-card animate-on-scroll delay-1" id="feature-shipping">
+          <div class="feature-icon-wrap terracotta">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="9,22 9,12 15,12 15,22" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="feature-title">Ongkir Otomatis</h3>
+          <p class="feature-desc">Integrasi otomatis dengan JNE, TIKI, SiCepat, Anteraja, dan J&T. Ongkos kirim dihitung real-time.</p>
+          <div class="feature-tags">
+            <span class="tag">JNE</span>
+            <span class="tag">SiCepat</span>
+            <span class="tag">J&T</span>
+          </div>
+        </div>
+
+        <div class="feature-card animate-on-scroll delay-2" id="feature-theme">
+          <div class="feature-icon-wrap navy">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M9 21V9" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="feature-title">Tema Modern</h3>
+          <p class="feature-desc">Puluhan tema premium siap pakai. Dari minimal modern hingga batik elegan — tampilkan identitas brand Anda.</p>
+          <div class="feature-tags">
+            <span class="tag">30+ Tema</span>
+            <span class="tag">Custom</span>
+          </div>
+        </div>
+
+        <div class="feature-card animate-on-scroll" id="feature-wa">
+          <div class="feature-icon-wrap gold">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="feature-title">WhatsApp Integration</h3>
+          <p class="feature-desc">Notifikasi pesanan, konfirmasi pembayaran, dan chat pelanggan langsung dari WhatsApp Business API.</p>
+          <div class="feature-tags">
+            <span class="tag">WA Business</span>
+            <span class="tag">Auto-reply</span>
+          </div>
+        </div>
+
+        <div class="feature-card feature-card-wide animate-on-scroll delay-1" id="feature-ai">
+          <div class="feature-icon-wrap terracotta">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <div class="feature-wide-content">
+            <h3 class="feature-title">AI Product Management</h3>
+            <p class="feature-desc">Deskripsi produk otomatis, analisis harga kompetitor, rekomendasi stok, dan insight penjualan berbasis AI.</p>
+          </div>
+          <div class="feature-wide-visual">
+            <div class="ai-card">
+              <div class="ai-prompt">✨ Buat deskripsi untuk "Batik Kawung Premium"...</div>
+              <div class="ai-response">Batik Kawung Premium hadir dengan motif kawung yang elegan dan timeless, dibuat dari kain mori berkualitas tinggi...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card animate-on-scroll delay-2" id="feature-multistore">
+          <div class="feature-icon-wrap navy">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z" stroke="currentColor" stroke-width="1.5" rx="1"/></svg>
+          </div>
+          <h3 class="feature-title">Multi-Store Management</h3>
+          <p class="feature-desc">Kelola beberapa toko sekaligus dari satu dashboard. Stok terpusat, laporan tergabung, mudah dikelola.</p>
+          <div class="feature-tags">
+            <span class="tag">Unlimited Toko</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THEME MARKETPLACE -->
+  <section class="themes-section" id="themes">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <div class="section-eyebrow">Marketplace Tema</div>
+        <h2 class="section-title">Pilih tampilan yang<br />mencerminkan brand Anda</h2>
+        <p class="section-sub">Setiap tema dirancang oleh desainer profesional Indonesia untuk kesan pertama yang tak terlupakan.</p>
+      </div>
+
+      <div class="themes-filter animate-on-scroll">
+        <button class="theme-filter-btn active" id="filter-all" data-filter="all">Semua</button>
+        <button class="theme-filter-btn" id="filter-modern" data-filter="modern">Modern</button>
+        <button class="theme-filter-btn" id="filter-batik" data-filter="batik">Batik</button>
+        <button class="theme-filter-btn" id="filter-fashion" data-filter="fashion">Fashion</button>
+        <button class="theme-filter-btn" id="filter-luxury" data-filter="luxury">Luxury</button>
+      </div>
+
+      <div class="themes-grid">
+        <div class="theme-card animate-on-scroll" data-category="modern" id="theme-minimal">
+          <div class="theme-preview modern-preview">
+            <div class="preview-nav"></div>
+            <div class="preview-hero-block"></div>
+            <div class="preview-products">
+              <div class="preview-prod"></div>
+              <div class="preview-prod"></div>
+              <div class="preview-prod"></div>
+            </div>
+          </div>
+          <div class="theme-info">
+            <div class="theme-name">Minimal Modern</div>
+            <div class="theme-price free">Gratis</div>
+          </div>
+          <div class="theme-badge popular">Populer</div>
+        </div>
+
+        <div class="theme-card animate-on-scroll delay-1" data-category="batik" id="theme-batik">
+          <div class="theme-preview batik-preview">
+            <div class="preview-nav gold-nav"></div>
+            <div class="preview-hero-block gold-hero">
+              <div class="mini-batik-pattern" aria-hidden="true"></div>
+            </div>
+            <div class="preview-products">
+              <div class="preview-prod gold-prod"></div>
+              <div class="preview-prod gold-prod"></div>
+              <div class="preview-prod gold-prod"></div>
+            </div>
+          </div>
+          <div class="theme-info">
+            <div class="theme-name">Batik Modern</div>
+            <div class="theme-price premium">Premium</div>
+          </div>
+          <div class="theme-badge new">Baru</div>
+        </div>
+
+        <div class="theme-card animate-on-scroll delay-2" data-category="fashion" id="theme-muslim">
+          <div class="theme-preview muslim-preview">
+            <div class="preview-nav dark-nav"></div>
+            <div class="preview-hero-block dark-hero"></div>
+            <div class="preview-products">
+              <div class="preview-prod dark-prod"></div>
+              <div class="preview-prod dark-prod"></div>
+              <div class="preview-prod dark-prod"></div>
+            </div>
+          </div>
+          <div class="theme-info">
+            <div class="theme-name">Muslim Elegant</div>
+            <div class="theme-price premium">Premium</div>
+          </div>
+        </div>
+
+        <div class="theme-card animate-on-scroll" data-category="fashion" id="theme-korean">
+          <div class="theme-preview korean-preview">
+            <div class="preview-nav pink-nav"></div>
+            <div class="preview-hero-block pink-hero"></div>
+            <div class="preview-products">
+              <div class="preview-prod pink-prod"></div>
+              <div class="preview-prod pink-prod"></div>
+              <div class="preview-prod pink-prod"></div>
+            </div>
+          </div>
+          <div class="theme-info">
+            <div class="theme-name">Korean Store</div>
+            <div class="theme-price free">Gratis</div>
+          </div>
+        </div>
+
+        <div class="theme-card animate-on-scroll delay-1" data-category="luxury" id="theme-luxury">
+          <div class="theme-preview luxury-preview">
+            <div class="preview-nav luxury-nav"></div>
+            <div class="preview-hero-block luxury-hero"></div>
+            <div class="preview-products">
+              <div class="preview-prod luxury-prod"></div>
+              <div class="preview-prod luxury-prod"></div>
+              <div class="preview-prod luxury-prod"></div>
+            </div>
+          </div>
+          <div class="theme-info">
+            <div class="theme-name">Luxury Gold</div>
+            <div class="theme-price premium">Premium</div>
+          </div>
+          <div class="theme-badge hot">Hot</div>
+        </div>
+
+        <div class="theme-card theme-more animate-on-scroll delay-2" id="theme-more">
+          <div class="theme-more-inner">
+            <div class="theme-more-icon">+</div>
+            <div class="theme-more-text">25 Tema Lainnya</div>
+            <div class="theme-more-sub">Tersedia di marketplace</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DASHBOARD PREVIEW -->
+  <section class="dashboard-section" id="dashboard">
+    <div class="container">
+      <div class="dashboard-grid">
+        <div class="dashboard-text animate-on-scroll">
+          <div class="section-eyebrow">Dashboard Modern</div>
+          <h2 class="section-title">Semua data bisnis<br />dalam satu layar</h2>
+          <p class="section-sub">Monitor penjualan real-time, kelola pesanan, pantau stok, dan analisis performa toko — dari mana saja.</p>
+          <ul class="dash-features-list">
+            <li class="dash-feature-item animate-on-scroll">
+              <span class="dfeat-icon">📊</span>
+              <div>
+                <strong>Analitik Real-Time</strong>
+                <p>Grafik penjualan, konversi, dan traffic diperbarui setiap menit.</p>
+              </div>
+            </li>
+            <li class="dash-feature-item animate-on-scroll delay-1">
+              <span class="dfeat-icon">📦</span>
+              <div>
+                <strong>Manajemen Pesanan</strong>
+                <p>Proses pesanan masuk dengan satu klik, cetak label pengiriman otomatis.</p>
+              </div>
+            </li>
+            <li class="dash-feature-item animate-on-scroll delay-2">
+              <span class="dfeat-icon">👥</span>
+              <div>
+                <strong>CRM Pelanggan</strong>
+                <p>Database pelanggan lengkap, histori pembelian, dan segmentasi otomatis.</p>
+              </div>
+            </li>
+          </ul>
+          <a href="#" class="btn-primary animate-on-scroll" id="dash-cta">Jelajahi Dashboard</a>
+        </div>
+        <div class="dashboard-visual animate-on-scroll delay-1">
+          <div class="dash-full-mockup">
+            <div class="dfm-top-bar">
+              <div class="dfm-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="dfm-url">app.sellory.id</div>
+              <div class="dfm-actions">
+                <div class="dfm-btn"></div>
+                <div class="dfm-btn"></div>
+              </div>
+            </div>
+            <div class="dfm-body">
+              <div class="dfm-sidebar">
+                <div class="dfm-logo"><svg width="18" height="18" viewBox="0 0 32 32" fill="none"><path d="M16 2L28 8V24L16 30L4 24V8L16 2Z" stroke="#C9A96E" stroke-width="2" fill="none"/><circle cx="16" cy="16" r="3" fill="#C9A96E"/></svg></div>
+                <div class="dfm-nav">
+                  <div class="dfm-nav-item dfm-active"></div>
+                  <div class="dfm-nav-item"></div>
+                  <div class="dfm-nav-item"></div>
+                  <div class="dfm-nav-item"></div>
+                  <div class="dfm-nav-item"></div>
+                </div>
+              </div>
+              <div class="dfm-content">
+                <div class="dfm-heading-row">
+                  <div class="dfm-page-title"></div>
+                  <div class="dfm-add-btn"></div>
+                </div>
+                <!-- KPI row -->
+                <div class="dfm-kpi-row">
+                  <div class="dfm-kpi">
+                    <div class="dfm-kpi-label"></div>
+                    <div class="dfm-kpi-val gold-text"></div>
+                    <div class="dfm-kpi-chart">
+                      <svg viewBox="0 0 60 20" fill="none"><path d="M0 18 Q10 15 20 12 Q30 8 40 6 Q50 4 60 2" stroke="#C9A96E" stroke-width="1.5" fill="none"/></svg>
+                    </div>
+                  </div>
+                  <div class="dfm-kpi">
+                    <div class="dfm-kpi-label"></div>
+                    <div class="dfm-kpi-val"></div>
+                    <div class="dfm-kpi-chart">
+                      <svg viewBox="0 0 60 20" fill="none"><path d="M0 14 Q10 12 20 10 Q30 8 40 5 Q50 3 60 2" stroke="#8B9DC3" stroke-width="1.5" fill="none"/></svg>
+                    </div>
+                  </div>
+                  <div class="dfm-kpi">
+                    <div class="dfm-kpi-label"></div>
+                    <div class="dfm-kpi-val"></div>
+                    <div class="dfm-kpi-chart">
+                      <svg viewBox="0 0 60 20" fill="none"><path d="M0 16 Q10 14 20 11 Q30 9 40 7 Q50 5 60 4" stroke="#C9846E" stroke-width="1.5" fill="none"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <!-- Main chart area -->
+                <div class="dfm-chart-area">
+                  <div class="dfm-chart-header">
+                    <div class="dfm-chart-title"></div>
+                    <div class="dfm-chart-period"></div>
+                  </div>
+                  <div class="dfm-chart-body">
+                    <svg viewBox="0 0 300 80" fill="none" width="100%" height="100%">
+                      <defs>
+                        <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.4"/>
+                          <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M0 70 Q30 60 60 50 Q90 40 120 30 Q150 20 180 25 Q210 30 240 15 Q270 5 300 8" fill="none" stroke="#C9A96E" stroke-width="2"/>
+                      <path d="M0 70 Q30 60 60 50 Q90 40 120 30 Q150 20 180 25 Q210 30 240 15 Q270 5 300 8 L300 80 L0 80Z" fill="url(#chartGrad)"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Orders table snippet -->
+                <div class="dfm-table">
+                  <div class="dfm-tr dfm-th">
+                    <div class="dfm-td w40"></div>
+                    <div class="dfm-td w25"></div>
+                    <div class="dfm-td w20"></div>
+                    <div class="dfm-td w15"></div>
+                  </div>
+                  <div class="dfm-tr">
+                    <div class="dfm-td w40 dark"></div>
+                    <div class="dfm-td w25"></div>
+                    <div class="dfm-td w20 gold-td"></div>
+                    <div class="dfm-td w15 green-td"></div>
+                  </div>
+                  <div class="dfm-tr">
+                    <div class="dfm-td w40 dark"></div>
+                    <div class="dfm-td w25"></div>
+                    <div class="dfm-td w20 gold-td"></div>
+                    <div class="dfm-td w15 yellow-td"></div>
+                  </div>
+                  <div class="dfm-tr">
+                    <div class="dfm-td w40 dark"></div>
+                    <div class="dfm-td w25"></div>
+                    <div class="dfm-td w20 gold-td"></div>
+                    <div class="dfm-td w15 green-td"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section" id="testimonials">
+    <!-- Mega Mendung subtle pattern -->
+    <div class="mendung-accent" aria-hidden="true">
+      <svg viewBox="0 0 600 200" fill="none" opacity="0.04">
+        <path d="M0 100 Q50 20 100 100 Q150 180 200 100 Q250 20 300 100 Q350 180 400 100 Q450 20 500 100 Q550 180 600 100" stroke="#C9A96E" stroke-width="3"/>
+        <path d="M0 80 Q50 0 100 80 Q150 160 200 80 Q250 0 300 80 Q350 160 400 80 Q450 0 500 80 Q550 160 600 80" stroke="#C9A96E" stroke-width="2"/>
+        <path d="M0 120 Q50 40 100 120 Q150 200 200 120 Q250 40 300 120 Q350 200 400 120 Q450 40 500 120 Q550 200 600 120" stroke="#C9A96E" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <div class="section-eyebrow">Testimoni</div>
+        <h2 class="section-title">Dipercaya penjual<br />di seluruh Indonesia</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testi-card animate-on-scroll" id="testi-1">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Sejak pakai Sellory, omzet toko batik saya naik 3x lipat dalam 2 bulan. Dashboard-nya intuitif dan tema Batik Modern benar-benar mempercantik tampilan toko saya.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #C9A96E, #8B6914)">AP</div>
+            <div class="testi-info">
+              <div class="testi-name">Aris Bayu Pranata</div>
+              <div class="testi-role">Owner Azrahstore, Bandung</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testi-card animate-on-scroll delay-1" id="testi-2">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">QRIS otomatis dan notif WhatsApp beneran game-changer buat jualan online saya. Nggak perlu cek manual lagi, semua langsung masuk ke HP.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #8B9DC3, #1B2B5E)">AR</div>
+            <div class="testi-info">
+              <div class="testi-name">Ahmad Rifai</div>
+              <div class="testi-role">Penjual Fashion, Jakarta</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testi-card animate-on-scroll delay-2" id="testi-3">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Fitur multi-store-nya luar biasa. Saya bisa kelola 4 toko sekaligus dari satu dashboard. Stok otomatis sinkron, laporan gabungan, hemat waktu banget.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #C9846E, #8B3914)">DW</div>
+            <div class="testi-info">
+              <div class="testi-name">Dewi Wulandari</div>
+              <div class="testi-role">Pelaku UMKM, Yogyakarta</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testi-card animate-on-scroll" id="testi-4">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">AI deskripsi produknya keren banget! Saya tinggal masukkan nama produk, langsung keluar deskripsi yang menarik dan SEO-friendly. Hemat 2 jam kerja per hari.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #6E9EA8, #1B4B5E)">BH</div>
+            <div class="testi-info">
+              <div class="testi-name">Budi Hartono</div>
+              <div class="testi-role">Pedagang Kerajinan, Bali</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-highlight animate-on-scroll delay-1" id="testi-5">
+          <div class="testi-highlight-bg" aria-hidden="true"></div>
+          <div class="testi-metric">
+            <div class="testi-metric-num">3.2x</div>
+            <div class="testi-metric-label">Rata-rata peningkatan omzet penjual Sellory dalam 90 hari pertama</div>
+          </div>
+          <div class="testi-metric-sub">Berdasarkan survei internal Q1 2026</div>
+        </div>
+
+        <div class="testi-card animate-on-scroll delay-2" id="testi-6">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Setup toko cuma 15 menit! Domain custom, tema premium, payment gateway — semua langsung jalan. Ini yang namanya platform untuk penjual serius.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #A8C9A0, #2B5E1B)">NN</div>
+            <div class="testi-info">
+              <div class="testi-name">Nadia Nurfitri</div>
+              <div class="testi-role">Founder, KebayaModern.id</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <div class="section-eyebrow">Harga Transparan</div>
+        <h2 class="section-title">Mulai gratis,<br />tumbuh bersama Sellory</h2>
+        <p class="section-sub">Tidak ada biaya tersembunyi. Tidak ada kontrak. Berhenti kapan saja.</p>
+      </div>
+
+      <div class="pricing-toggle animate-on-scroll">
+        <span class="toggle-label" id="toggle-monthly-label">Bulanan</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="pricing-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span class="toggle-label" id="toggle-yearly-label">Tahunan <span class="save-badge">Hemat 20%</span></span>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card animate-on-scroll" id="price-starter">
+          <div class="price-name">Starter</div>
+          <div class="price-val" data-monthly="0" data-yearly="0">
+            <span class="price-currency">Rp</span>
+            <span class="price-num">0</span>
+          </div>
+          <div class="price-period">/bulan, selamanya gratis</div>
+          <ul class="price-features">
+            <li>✓ 1 toko online</li>
+            <li>✓ 50 produk</li>
+            <li>✓ QRIS & transfer bank</li>
+            <li>✓ 3 tema gratis</li>
+            <li>✓ Subdomain sellory.id</li>
+          </ul>
+          <a href="#" class="btn-outline w-full" id="price-starter-cta">Mulai Gratis</a>
+        </div>
+
+        <div class="price-card price-popular animate-on-scroll delay-1" id="price-pro">
+          <div class="price-badge-popular">Paling Populer</div>
+          <div class="price-name">Pro</div>
+          <div class="price-val" data-monthly="199000" data-yearly="159000">
+            <span class="price-currency">Rp</span>
+            <span class="price-num">199.000</span>
+          </div>
+          <div class="price-period">/bulan</div>
+          <ul class="price-features">
+            <li>✓ 3 toko online</li>
+            <li>✓ Produk unlimited</li>
+            <li>✓ Semua metode pembayaran</li>
+            <li>✓ 30+ tema premium</li>
+            <li>✓ Domain custom</li>
+            <li>✓ WhatsApp integration</li>
+            <li>✓ AI product management</li>
+          </ul>
+          <a href="#" class="btn-primary w-full" id="price-pro-cta">Coba 14 Hari Gratis</a>
+        </div>
+
+        <div class="price-card animate-on-scroll delay-2" id="price-enterprise">
+          <div class="price-name">Enterprise</div>
+          <div class="price-val">
+            <span class="price-custom">Custom</span>
+          </div>
+          <div class="price-period">hubungi tim kami</div>
+          <ul class="price-features">
+            <li>✓ Toko unlimited</li>
+            <li>✓ Produk unlimited</li>
+            <li>✓ Dedicated support 24/7</li>
+            <li>✓ Custom integrasi API</li>
+            <li>✓ SLA 99.9% uptime</li>
+            <li>✓ Custom development</li>
+            <li>✓ Onboarding personal</li>
+          </ul>
+          <a href="#" class="btn-ghost-dark w-full" id="price-enterprise-cta">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta-section" id="cta">
+    <div class="final-cta-batik" aria-hidden="true">
+      <svg viewBox="0 0 800 300" fill="none">
+        <g opacity="0.08">
+          <!-- Kawung accent large -->
+          <ellipse cx="100" cy="150" rx="70" ry="45" stroke="#C9A96E" stroke-width="1.5"/>
+          <ellipse cx="100" cy="150" rx="45" ry="70" stroke="#C9A96E" stroke-width="1.5"/>
+          <ellipse cx="700" cy="150" rx="70" ry="45" stroke="#C9A96E" stroke-width="1.5"/>
+          <ellipse cx="700" cy="150" rx="45" ry="70" stroke="#C9A96E" stroke-width="1.5"/>
+          <ellipse cx="400" cy="60" rx="50" ry="32" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="400" cy="60" rx="32" ry="50" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="400" cy="240" rx="50" ry="32" stroke="#C9A96E" stroke-width="1"/>
+          <ellipse cx="400" cy="240" rx="32" ry="50" stroke="#C9A96E" stroke-width="1"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="final-cta-content animate-on-scroll">
+        <div class="section-eyebrow light">Siap memulai?</div>
+        <h2 class="final-cta-title">Buat toko online Anda<br />hari ini, gratis.</h2>
+        <p class="final-cta-sub">Bergabung dengan 10.000+ UMKM Indonesia yang sudah<br />mempercayakan bisnisnya kepada Sellory.</p>
+        <div class="final-cta-actions">
+          <a href="#" class="btn-primary btn-large" id="final-cta-primary">Mulai Gratis Sekarang</a>
+          <a href="#" class="btn-outline-light btn-large" id="final-cta-secondary">Jadwalkan Demo</a>
+        </div>
+        <div class="final-cta-note">Tidak perlu kartu kredit · Gratis selamanya untuk Starter</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <!-- Batik texture overlay -->
+    <div class="footer-batik" aria-hidden="true">
+      <svg class="footer-batik-svg" viewBox="0 0 1200 100" fill="none" preserveAspectRatio="none">
+        <g opacity="0.07">
+          <path d="M0 50 Q100 10 200 50 Q300 90 400 50 Q500 10 600 50 Q700 90 800 50 Q900 10 1000 50 Q1100 90 1200 50" stroke="#C9A96E" stroke-width="1.5"/>
+          <path d="M0 35 Q100 0 200 35 Q300 70 400 35 Q500 0 600 35 Q700 70 800 35 Q900 0 1000 35 Q1100 70 1200 35" stroke="#C9A96E" stroke-width="1"/>
+          <path d="M0 65 Q100 30 200 65 Q300 100 400 65 Q500 30 600 65 Q700 100 800 65 Q900 30 1000 65 Q1100 100 1200 65" stroke="#C9A96E" stroke-width="1"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo">
+            <span class="logo-mark">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                <path d="M16 2L28 8V24L16 30L4 24V8L16 2Z" stroke="#C9A96E" stroke-width="1.5" fill="none"/>
+                <circle cx="16" cy="16" r="2.5" fill="#C9A96E"/>
+              </svg>
+            </span>
+            <span class="logo-text">Sellory</span>
+          </a>
+          <p class="footer-tagline">Platform toko online modern<br />untuk UMKM Indonesia.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" id="social-instagram" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-btn" id="social-tiktok" aria-label="TikTok">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#" class="social-btn" id="social-twitter" aria-label="Twitter/X">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M18 4L6 20M6 4l12 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+            <a href="#" class="social-btn" id="social-youtube" aria-label="YouTube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M10 9l5 3-5 3V9z" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-links-col">
+            <div class="footer-links-title">Produk</div>
+            <ul>
+              <li><a href="#features">Fitur</a></li>
+              <li><a href="#themes">Marketplace Tema</a></li>
+              <li><a href="#dashboard">Dashboard</a></li>
+              <li><a href="#pricing">Harga</a></li>
+              <li><a href="#">Changelog</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <div class="footer-links-title">Integrasi</div>
+            <ul>
+              <li><a href="#">Midtrans</a></li>
+              <li><a href="#">WhatsApp API</a></li>
+              <li><a href="#">JNE / TIKI</a></li>
+              <li><a href="#">Tokopedia</a></li>
+              <li><a href="#">Shopee</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <div class="footer-links-title">Perusahaan</div>
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Karir</a></li>
+              <li><a href="#">Press Kit</a></li>
+              <li><a href="#">Hubungi Kami</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <div class="footer-links-title">Legal</div>
+            <ul>
+              <li><a href="#">Syarat & Ketentuan</a></li>
+              <li><a href="#">Kebijakan Privasi</a></li>
+              <li><a href="#">Kebijakan Cookie</a></li>
+              <li><a href="#">GDPR</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 zamify. Dibuat di Indonesia.</div>
+        <div class="footer-cert">
+          <span class="cert-badge">SSL Secured</span>
+          <span class="cert-badge"> Made in Indonesia</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
